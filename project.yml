@@ -1,0 +1,20 @@
+name: SAM4SPrintIO
+options:
+  bundleIdPrefix: org.linusu
+  deploymentTarget:
+    iOS: '8.0'
+targets:
+  SAM4SPrintIO:
+    type: framework
+    platform: iOS
+    sources:
+      - libSHCLibrary.a
+      - Sources
+    scheme: {}
+    settings:
+      APPLICATION_EXTENSION_API_ONLY: true
+      ENABLE_BITCODE: false
+      OTHER_LDFLAGS: ["-force_load", "libSHCLibrary.a"]
+      VALID_ARCHS: arm64 armv7
+    info:
+      path: Sources/Info.plist

@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B14B350A13B1EA78DABBD420A1DC79 /* SAM4SPrintIO.h in Headers */ = {isa = PBXBuildFile; fileRef = FF387E2E64D81880CDFAF2C167A5E6BF /* SAM4SPrintIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C3237BA277B8D884215D84B3891631E /* if_ether.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5F53CDAB5D33C45BAC79AD88C82DF8 /* if_ether.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DF198BF1D7583C145BCEDA2BC8F77EC /* BTConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F4905AD114EE3EDCBB5816382CA1A8 /* BTConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18E818361ED566EA9C9F978153311E29 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF3AA6961684A762EB0726C2B54644D /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5678E07F067B3E565AA006F79B111A77 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 4053D1F97911BD4C13394C4BFEE30383 /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F87185648543B04C6BBCEE1D6C1DDBE /* if_arp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEA7BCD4C938EBB4313316075476D64 /* if_arp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4377AE42CD55621031F665A381FDCA /* libSHCLibrary.a in Resources */ = {isa = PBXBuildFile; fileRef = 290E781AE4FA3A5186CA6E70D4F5D46B /* libSHCLibrary.a */; };
+		7602ABF2178C646BAF9760F6B478A375 /* PrintIOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D083E8D4D8CF9C99AFFF8FAB3F3A10 /* PrintIOStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D4184C2DB5CF173E6D339562732DC96 /* Printer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4941D7714024711A369B8F009742D0 /* Printer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		873ED35D99A52CEAA6E1465C0C7EEF78 /* ConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E067FD1C9B6C3C6806211CCC8589EC1 /* ConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91CF2EEFDEACFE2E344C16E90DB0C6AB /* BTConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = CACE62B95A4E1710EAD18A79858ACA03 /* BTConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DC7A0EB26E4348460487449FBFC2118 /* Printer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD6EE3C4331E8469D2FD81C9842B91F /* Printer+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABAEDB99B00B39B0B8FCFB6898D72AD3 /* WiredConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD2528777AA1302308AEB53A3E5E71F /* WiredConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB840BE5EE0054FC10566D80F0E02EBB /* PrinterConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6919D044E8839279A0FF36717310FB /* PrinterConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDB8460A6894854DA3DA4C5A3311347A /* if_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 3459888389AC8CF95DFBC9011034E8E1 /* if_types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6F5D7A7D678C995296E6F2C2C32F44A /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = 861F8AB75E87B7EB6C29B01EC07D3D16 /* route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD9835B1D249087F5D3E892A9FEDA592 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = F67A1B311A0C7E6524BF0B062912B4ED /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B7034442750289716C4D63AD24B775 /* SimplePingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EA261F6C3774B1A8037CBE9B07CA6EA5 /* SimplePingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00381FAE5F5D38EE115E4D4B271370B /* WiredConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B220AE593EE46C1715BBD2E8A510593 /* WiredConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E067FD1C9B6C3C6806211CCC8589EC1 /* ConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		1DD2528777AA1302308AEB53A3E5E71F /* WiredConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiredConnection.h; sourceTree = "<group>"; };
+		290E781AE4FA3A5186CA6E70D4F5D46B /* libSHCLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSHCLibrary.a; sourceTree = "<group>"; };
+		3459888389AC8CF95DFBC9011034E8E1 /* if_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_types.h; sourceTree = "<group>"; };
+		3B220AE593EE46C1715BBD2E8A510593 /* WiredConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiredConnectionManager.h; sourceTree = "<group>"; };
+		3B4941D7714024711A369B8F009742D0 /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		3BF3AA6961684A762EB0726C2B54644D /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		3E3C155734FF6368E275408DDE7B8B10 /* SAM4SPrintIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAM4SPrintIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4053D1F97911BD4C13394C4BFEE30383 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		5A6919D044E8839279A0FF36717310FB /* PrinterConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrinterConnection.h; sourceTree = "<group>"; };
+		69F4905AD114EE3EDCBB5816382CA1A8 /* BTConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTConnectionManager.h; sourceTree = "<group>"; };
+		7AEA7BCD4C938EBB4313316075476D64 /* if_arp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_arp.h; sourceTree = "<group>"; };
+		83D083E8D4D8CF9C99AFFF8FAB3F3A10 /* PrintIOStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintIOStream.h; sourceTree = "<group>"; };
+		861F8AB75E87B7EB6C29B01EC07D3D16 /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		89F6A35C93D91CB067CB482257A35C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD6EE3C4331E8469D2FD81C9842B91F /* Printer+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Printer+Private.h"; sourceTree = "<group>"; };
+		CACE62B95A4E1710EAD18A79858ACA03 /* BTConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTConnection.h; sourceTree = "<group>"; };
+		DF5F53CDAB5D33C45BAC79AD88C82DF8 /* if_ether.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_ether.h; sourceTree = "<group>"; };
+		EA261F6C3774B1A8037CBE9B07CA6EA5 /* SimplePingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePingHelper.h; sourceTree = "<group>"; };
+		F67A1B311A0C7E6524BF0B062912B4ED /* SimplePing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		FF387E2E64D81880CDFAF2C167A5E6BF /* SAM4SPrintIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAM4SPrintIO.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3CE5B6BDC0DCAF7E8E7469F3491AF12A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3C155734FF6368E275408DDE7B8B10 /* SAM4SPrintIO.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6893DEC57FACFA2F5FAD02FE9744D8D7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CACE62B95A4E1710EAD18A79858ACA03 /* BTConnection.h */,
+				69F4905AD114EE3EDCBB5816382CA1A8 /* BTConnectionManager.h */,
+				0E067FD1C9B6C3C6806211CCC8589EC1 /* ConnectionManager.h */,
+				3BF3AA6961684A762EB0726C2B54644D /* GCDAsyncUdpSocket.h */,
+				4053D1F97911BD4C13394C4BFEE30383 /* Global.h */,
+				7AEA7BCD4C938EBB4313316075476D64 /* if_arp.h */,
+				DF5F53CDAB5D33C45BAC79AD88C82DF8 /* if_ether.h */,
+				3459888389AC8CF95DFBC9011034E8E1 /* if_types.h */,
+				89F6A35C93D91CB067CB482257A35C71 /* Info.plist */,
+				3B4941D7714024711A369B8F009742D0 /* Printer.h */,
+				BDD6EE3C4331E8469D2FD81C9842B91F /* Printer+Private.h */,
+				5A6919D044E8839279A0FF36717310FB /* PrinterConnection.h */,
+				83D083E8D4D8CF9C99AFFF8FAB3F3A10 /* PrintIOStream.h */,
+				861F8AB75E87B7EB6C29B01EC07D3D16 /* route.h */,
+				FF387E2E64D81880CDFAF2C167A5E6BF /* SAM4SPrintIO.h */,
+				F67A1B311A0C7E6524BF0B062912B4ED /* SimplePing.h */,
+				EA261F6C3774B1A8037CBE9B07CA6EA5 /* SimplePingHelper.h */,
+				1DD2528777AA1302308AEB53A3E5E71F /* WiredConnection.h */,
+				3B220AE593EE46C1715BBD2E8A510593 /* WiredConnectionManager.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		85FF63A766D99C052C451F9CD4C7080E = {
+			isa = PBXGroup;
+			children = (
+				290E781AE4FA3A5186CA6E70D4F5D46B /* libSHCLibrary.a */,
+				6893DEC57FACFA2F5FAD02FE9744D8D7 /* Sources */,
+				3CE5B6BDC0DCAF7E8E7469F3491AF12A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59E88DA8568777B748E417157DBB63F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91CF2EEFDEACFE2E344C16E90DB0C6AB /* BTConnection.h in Headers */,
+				0DF198BF1D7583C145BCEDA2BC8F77EC /* BTConnectionManager.h in Headers */,
+				873ED35D99A52CEAA6E1465C0C7EEF78 /* ConnectionManager.h in Headers */,
+				18E818361ED566EA9C9F978153311E29 /* GCDAsyncUdpSocket.h in Headers */,
+				5678E07F067B3E565AA006F79B111A77 /* Global.h in Headers */,
+				7602ABF2178C646BAF9760F6B478A375 /* PrintIOStream.h in Headers */,
+				9DC7A0EB26E4348460487449FBFC2118 /* Printer+Private.h in Headers */,
+				7D4184C2DB5CF173E6D339562732DC96 /* Printer.h in Headers */,
+				BB840BE5EE0054FC10566D80F0E02EBB /* PrinterConnection.h in Headers */,
+				06B14B350A13B1EA78DABBD420A1DC79 /* SAM4SPrintIO.h in Headers */,
+				DD9835B1D249087F5D3E892A9FEDA592 /* SimplePing.h in Headers */,
+				E4B7034442750289716C4D63AD24B775 /* SimplePingHelper.h in Headers */,
+				ABAEDB99B00B39B0B8FCFB6898D72AD3 /* WiredConnection.h in Headers */,
+				F00381FAE5F5D38EE115E4D4B271370B /* WiredConnectionManager.h in Headers */,
+				5F87185648543B04C6BBCEE1D6C1DDBE /* if_arp.h in Headers */,
+				0C3237BA277B8D884215D84B3891631E /* if_ether.h in Headers */,
+				BDB8460A6894854DA3DA4C5A3311347A /* if_types.h in Headers */,
+				D6F5D7A7D678C995296E6F2C2C32F44A /* route.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F1A3B7FA0EE666FC10C24731290C455 /* SAM4SPrintIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92C0C2EC05B78A40780A385F11D4A3E0 /* Build configuration list for PBXNativeTarget "SAM4SPrintIO" */;
+			buildPhases = (
+				59E88DA8568777B748E417157DBB63F8 /* Headers */,
+				DF6D206D60576D61363BE4D7CE8B35AF /* Sources */,
+				E6FA3DA1003B8275025A5FAD29FB8F6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAM4SPrintIO;
+			productName = SAM4SPrintIO;
+			productReference = 3E3C155734FF6368E275408DDE7B8B10 /* SAM4SPrintIO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0345E1960D333A3360F2708212D2EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = A260985F690176C584D0B21627E1B40C /* Build configuration list for PBXProject "SAM4SPrintIO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85FF63A766D99C052C451F9CD4C7080E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1A3B7FA0EE666FC10C24731290C455 /* SAM4SPrintIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6FA3DA1003B8275025A5FAD29FB8F6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4377AE42CD55621031F665A381FDCA /* libSHCLibrary.a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6D206D60576D61363BE4D7CE8B35AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6B5A9F0020E0069F3865C6F1DD65E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7B5368F6DA07CD5A4FEB68BF81954707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					libSHCLibrary.a,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.linusu.SAM4SPrintIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		7EA0723D147D19153111D70F2AB190FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					libSHCLibrary.a,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.linusu.SAM4SPrintIO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		DCCABBDC1B8F09CAFC4E0516947F4A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92C0C2EC05B78A40780A385F11D4A3E0 /* Build configuration list for PBXNativeTarget "SAM4SPrintIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B5368F6DA07CD5A4FEB68BF81954707 /* Debug */,
+				7EA0723D147D19153111D70F2AB190FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		A260985F690176C584D0B21627E1B40C /* Build configuration list for PBXProject "SAM4SPrintIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6B5A9F0020E0069F3865C6F1DD65E5 /* Debug */,
+				DCCABBDC1B8F09CAFC4E0516947F4A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB0345E1960D333A3360F2708212D2EF /* Project object */;
+}
