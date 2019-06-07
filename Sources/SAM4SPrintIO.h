@@ -12,10 +12,12 @@
 #import <CoreGraphics/CoreGraphics.h>
 #import <UIKit/UIKit.h>
 
-#import "Printer.h"
-#import "ConnectionManager.h"
 #import "BTConnection.h"
+#import "BTConnectionManager.h"
+#import "ConnectionManager.h"
+#import "Printer.h"
 #import "WiredConnection.h"
+#import "WiredConnectionManager.h"
 
 #define SHARPEN_MODE_OFF 0
 #define SHARPEN_MODE_ON 1
