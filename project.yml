@@ -7,9 +7,7 @@ targets:
   SAM4SPrintIO:
     type: framework
     platform: iOS
-    sources:
-      - libSHCLibrary.a
-      - Sources
+    sources: Sources
     scheme: {}
     settings:
       APPLICATION_EXTENSION_API_ONLY: true
