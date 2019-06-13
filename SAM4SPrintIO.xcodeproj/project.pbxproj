@@ -13,7 +13,6 @@
 		18E818361ED566EA9C9F978153311E29 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BF3AA6961684A762EB0726C2B54644D /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5678E07F067B3E565AA006F79B111A77 /* Global.h in Headers */ = {isa = PBXBuildFile; fileRef = 4053D1F97911BD4C13394C4BFEE30383 /* Global.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F87185648543B04C6BBCEE1D6C1DDBE /* if_arp.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AEA7BCD4C938EBB4313316075476D64 /* if_arp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E4377AE42CD55621031F665A381FDCA /* libSHCLibrary.a in Resources */ = {isa = PBXBuildFile; fileRef = 290E781AE4FA3A5186CA6E70D4F5D46B /* libSHCLibrary.a */; };
 		7602ABF2178C646BAF9760F6B478A375 /* PrintIOStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D083E8D4D8CF9C99AFFF8FAB3F3A10 /* PrintIOStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D4184C2DB5CF173E6D339562732DC96 /* Printer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4941D7714024711A369B8F009742D0 /* Printer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		873ED35D99A52CEAA6E1465C0C7EEF78 /* ConnectionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E067FD1C9B6C3C6806211CCC8589EC1 /* ConnectionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		0E067FD1C9B6C3C6806211CCC8589EC1 /* ConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
 		1DD2528777AA1302308AEB53A3E5E71F /* WiredConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiredConnection.h; sourceTree = "<group>"; };
-		290E781AE4FA3A5186CA6E70D4F5D46B /* libSHCLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSHCLibrary.a; sourceTree = "<group>"; };
 		3459888389AC8CF95DFBC9011034E8E1 /* if_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = if_types.h; sourceTree = "<group>"; };
 		3B220AE593EE46C1715BBD2E8A510593 /* WiredConnectionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiredConnectionManager.h; sourceTree = "<group>"; };
 		3B4941D7714024711A369B8F009742D0 /* Printer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 		85FF63A766D99C052C451F9CD4C7080E = {
 			isa = PBXGroup;
 			children = (
-				290E781AE4FA3A5186CA6E70D4F5D46B /* libSHCLibrary.a */,
 				6893DEC57FACFA2F5FAD02FE9744D8D7 /* Sources */,
 				3CE5B6BDC0DCAF7E8E7469F3491AF12A /* Products */,
 			);
@@ -133,7 +130,6 @@
 			buildPhases = (
 				59E88DA8568777B748E417157DBB63F8 /* Headers */,
 				DF6D206D60576D61363BE4D7CE8B35AF /* Sources */,
-				E6FA3DA1003B8275025A5FAD29FB8F6B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -167,17 +163,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		E6FA3DA1003B8275025A5FAD29FB8F6B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6E4377AE42CD55621031F665A381FDCA /* libSHCLibrary.a in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF6D206D60576D61363BE4D7CE8B35AF /* Sources */ = {
