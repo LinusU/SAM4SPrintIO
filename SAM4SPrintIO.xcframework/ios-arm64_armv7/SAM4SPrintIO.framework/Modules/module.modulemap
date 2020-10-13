@@ -1,0 +1,6 @@
+framework module SAM4SPrintIO {
+  umbrella header "SAM4SPrintIO.h"
+
+  export *
+  module * { export * }
+}
